@@ -13,7 +13,7 @@ import { switchNetworkIfRequired } from '../utils/utils';
 const web3Modal = new Web3Modal({
     cacheProvider: true, // optional
     providerOptions, // required
-    network: "mainnet", //required
+    network: "mainnet"
   });
 
 const connect = async (cb) => {
